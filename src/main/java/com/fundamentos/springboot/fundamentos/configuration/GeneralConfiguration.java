@@ -29,7 +29,7 @@ public class GeneralConfiguration {
           return new MyBeanWithPropertiesImpl(name, apellido);
     }
 
-    @Bean
+   /* @Bean
     public DataSource dataSource(){
         DataSourceBuilder dataSourceBuilder = DataSourceBuilder.create();
         dataSourceBuilder.driverClassName("org.h2.Driver");
@@ -37,7 +37,7 @@ public class GeneralConfiguration {
         dataSourceBuilder.username("SA");
         dataSourceBuilder.password("");
         return  dataSourceBuilder.build();
-    }
+    }*/
 
 
 }
